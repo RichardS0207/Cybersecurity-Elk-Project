@@ -49,7 +49,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump-box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-- ... My *home public IP* to *Jumpbox provisioner* restricted inbound rule on port 22
+-  My *home public IP* to *Jumpbox provisioner* restricted inbound rule on port 22
 
 Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
