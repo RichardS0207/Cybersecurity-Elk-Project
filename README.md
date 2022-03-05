@@ -143,5 +143,15 @@ SSH into the control node and follow the steps below:
   
   - Elk-public-ip:5601/app/kibana
   
+  #Commands neede to run the Ansible Configuration for Elk-Server
+  1. ssh username@jumpbox(privateip)
+  2. sudo docker container list -a
+  3. sudo docker start (random name provided) 
+  4. sudo docker attach (random name provided)
+  5. cd /etc/ansible/
+  6. ansible-playbook elk playbook.yml
+  7. cd /etc/ansible/
+  8. ansible-playbook beats-playbook.yml
+  9. Open brower and navigate to Elk-public-ip:5601/app/kibana and Kibana will be brought up
   
 
