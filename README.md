@@ -114,7 +114,7 @@ We have installed the following Beats on these machines:
 - metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+
 - Filebeat is a log data shipper for local files. It monitors log directories and or specific log files and tails the files and sends them to Elasticsearch or Logstash for indexing. Ex: Logs produced form MySQL database supporting the application.
 
 - Metricbeat collects Metrics and statistics on a system. EX: Can monitor CPU usage to check systems health
